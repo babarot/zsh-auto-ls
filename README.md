@@ -11,6 +11,21 @@ Automatically run `ls` after changing directories and `git status` when there ar
 
 ## Installation
 
+### [afx](https://github.com/babarot/afx)
+
+Add to your `~/.config/afx/github.yaml`:
+
+```yaml
+github:
+  - name: babarot/zsh-auto-ls
+    description: Auto ls on directory change, git status on empty Enter
+    owner: babarot
+    repo: zsh-auto-ls
+    plugin:
+      sources:
+        - auto-ls.zsh
+```
+
 ### [zplug](https://github.com/zplug/zplug)
 
 ```zsh
